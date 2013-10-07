@@ -1,0 +1,3 @@
+[submodule "game_data"]
+	path = game_data
+	url = git@github.com:ashrithr/game_data_gen.git
