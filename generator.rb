@@ -472,7 +472,7 @@ end # end Core
 time = Benchmark.measure do
   # parallel runs to_generate lines which are > than 100k
   if @num_of_processes > 1
-    puts "Parallel mode, generating data to /tmp"
+    puts "Parallel mode, generating data to #{options[:path]}"
     progress = ProgressBar.create(:total => @num_of_processes,
                                   :format => '%a |%b>>%i| %p%% %t')
     results = Parallel.map(
