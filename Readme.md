@@ -29,6 +29,10 @@ If `--extra` option is enabled additional columns are populated as well
 | phone | contant number of the user |
 | address | user provided address during registration |
 
+Preqs
+-----
+This generator requires ruby version ≥ 1.9, to install ruby 1.9.3 using rvm follow these [instructions](https://gist.github.com/ashrithr/5811037)
+
 Generating the dataset:
 ----------------------
 This generator takes in various options for generating data:
